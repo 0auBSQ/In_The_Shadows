@@ -11,8 +11,10 @@ public class ObjectHandler : MonoBehaviour
 	private Ray ray;
 	private RaycastHit hit;
 	public bool randomise_yrot = true;
+	public bool randomise_xrot = true;
 	private AudioSource audios;
 	public bool satisfied = false;
+	public bool translating = false;
 	
 	void Awake()
 	{
@@ -24,13 +26,16 @@ public class ObjectHandler : MonoBehaviour
         if (randomise_yrot == true) {
 			transform.Rotate(0, Random.Range(-160f, 160f), 0);
 		}
+		if (randomise_xrot == true) {
+			transform.Rotate(Random.Range(-160f, 160f), 0, 0);
+		}
     }
 
     void Update()
     {
 		satisfied = constraints.satisfied;
+		translating = Input.GetKey(KeyCode.LeftControl);
 		
-		// Only handles rotations for now, moves will be added soon for hard levels
 		if (Input.GetMouseButtonDown(0) && focused == true) {
 			active = true;
 			RefreshMats(Master.GetM.m_list[1]);
