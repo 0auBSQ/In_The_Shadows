@@ -27,6 +27,10 @@ public class UnlockTranslation : MonoBehaviour
 				yRate = 0;
 			}
 			transform.Translate(new Vector3(xRate, yRate, 0) * Time.deltaTime, Space.World);
+			
+			float xPos = Mathf.Clamp(transform.position.x, -3, 3);
+			float yPos = Mathf.Clamp(transform.position.y, -3, 3);
+			transform.position = new Vector3(xPos, yPos, 0);
 		}
     }
 }

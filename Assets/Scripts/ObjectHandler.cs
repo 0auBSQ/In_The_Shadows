@@ -12,6 +12,8 @@ public class ObjectHandler : MonoBehaviour
 	private RaycastHit hit;
 	public bool randomise_yrot = true;
 	public bool randomise_xrot = true;
+	public bool randomise_ypos = false;
+	public bool randomise_xpos = false;
 	private AudioSource audios;
 	public bool satisfied = false;
 	public bool translating = false;
@@ -28,6 +30,12 @@ public class ObjectHandler : MonoBehaviour
 		}
 		if (randomise_xrot == true) {
 			transform.Rotate(Random.Range(-160f, 160f), 0, 0);
+		}
+		if (randomise_ypos == true) {
+			transform.position = new Vector3(transform.position.x, Random.Range(-3f, 3f), 0);
+		}
+		if (randomise_xpos == true) {
+			transform.position = new Vector3(Random.Range(-3f, 3f), transform.position.y, 0);
 		}
     }
 
