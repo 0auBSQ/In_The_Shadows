@@ -40,7 +40,6 @@ public class Constraint : MonoBehaviour
 			}
 			i++;
 		}
-		print(positionSatisfied);
 		
 		// Check all constraints
 		if (rotationSatisfied && positionSatisfied) {

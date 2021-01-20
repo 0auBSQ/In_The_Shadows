@@ -7,6 +7,7 @@ public class Master : MonoBehaviour
 	private static Master instance = null;
 	public Material[] m_list;
 	public AudioClip[] sfx_list;
+	public int[] cleared_levels = {0};
 
 	public static Master GetM
 	{
