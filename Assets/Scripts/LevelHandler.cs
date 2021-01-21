@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LevelHandler : MonoBehaviour
 {
@@ -8,15 +9,23 @@ public class LevelHandler : MonoBehaviour
 	public int level_id;
 	private bool active = true;
 	private AudioSource audios;
+	public TextMeshProUGUI level_nameplate;
+	public string level_name;
+	public LevelCountdown level_countdown;
+	public float max_time;
 	
 	void Awake()
 	{
 		audios = GameObject.FindGameObjectWithTag("AudioSource").GetComponent<AudioSource>();
+		level_nameplate.text = level_name;
+		level_countdown.c_timer = max_time;
 	}
 	
     void Update()
     {
 		if (active == true) {
+			
+			// Check if level completed
 			bool completed = true;
 			foreach (ObjectHandler oh in handlers) {
 				if (oh.satisfied == false) {
@@ -24,6 +33,23 @@ public class LevelHandler : MonoBehaviour
 				}
 			}
 			
+			// Handle level failed event
+			if (level_countdown.c_timer == 0f && completed == false) {
+				foreach (ObjectHandler oh in handlers) {
+					oh.active = false;
+					oh.translating = false;
+					oh.enabled = false;
+				}
+				print("Level failed !");
+				audios.clip = Master.GetM.sfx_list[5];
+				audios.loop = false;
+				audios.Play(0);
+				level_countdown.on_going = false;
+				ObjectHandler.busy = false;
+				active = false;
+			}
+			
+			// Handle level completed event
 			if (completed == true) {
 				foreach (ObjectHandler oh in handlers) {
 					oh.active = false;
@@ -34,7 +60,9 @@ public class LevelHandler : MonoBehaviour
 				audios.clip = Master.GetM.sfx_list[4];
 				audios.loop = false;
 				audios.Play(0);
+				level_countdown.on_going = false;
 				Master.GetM.cleared_levels[level_id] = 1;
+				ObjectHandler.busy = false;
 				active = false;
 			}
 		}
