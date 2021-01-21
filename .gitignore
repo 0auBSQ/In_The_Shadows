@@ -60,4 +60,5 @@ crashlytics-build.properties
 
 # TextMesh Pro files
 [Aa]ssets/TextMesh*Pro/
+[Aa]ssets/TextMesh*Pro.meta
 
