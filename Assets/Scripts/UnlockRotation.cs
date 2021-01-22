@@ -25,8 +25,13 @@ public class UnlockRotation : MonoBehaviour
 			if (yAxis == false) {
 				yRate = 0;
 			}
-			//transform.Rotate(new Vector3(yRate, xRate, 0) * Time.deltaTime, Space.World);
-			transform.Rotate(new Vector3(0.4f * yRate, xRate, -0.6f * yRate) * Time.deltaTime, Space.World);
+			// If only Yaxis rotation is allowed, rotation is world space, else rotation follow camera axis
+			if (xAxis == true) {
+				transform.Rotate(new Vector3(0.4f * yRate, xRate, -0.6f * yRate) * Time.deltaTime, Space.World);
+			}
+			else {
+				transform.Rotate(new Vector3(yRate, xRate, 0) * Time.deltaTime, Space.World);
+			}
 		}
     }
 }
