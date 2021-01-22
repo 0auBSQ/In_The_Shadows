@@ -21,6 +21,9 @@ public class LevelButton : MonoBehaviour
 		if (avaliable == false) {
 			GetComponent<Image>().color = new Color(0.6f, 0.6f, 0.6f, 1f);
 		}
+		if (Master.GetM.cleared_levels[level_index] == 0) {
+			transform.Find("Medal").gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+		}
 		GetComponent<Button>().onClick.AddListener(ClickEvent);
     }
 	
