@@ -75,6 +75,9 @@ public class LevelHandler : MonoBehaviour
 				audios.Play(0);
 				level_countdown.on_going = false;
 				Master.GetM.cleared_levels[level_id] = 1;
+				if (Master.GetM.test_mode == false) {
+					Master.SaveGame();
+				}
 				ObjectHandler.busy = false;
 				active = false;
 			}
