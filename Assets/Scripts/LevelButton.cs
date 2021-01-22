@@ -19,14 +19,21 @@ public class LevelButton : MonoBehaviour
 	
     void Start()
     {
+		// Check if requirements are satisfied
         foreach (int lr in level_requirements) {
 			if (Master.GetM.cleared_levels[lr - 1] == 0) {
 				avaliable = false;
 			}
 		}
+		// All level are unlocked if test mode is on
+		if (Master.GetM.test_mode == true) {
+			avaliable = true;
+		}
+		// Gray-ish the button if the level isn't unlocked
 		if (avaliable == false) {
 			GetComponent<Image>().color = new Color(0.6f, 0.6f, 0.6f, 1f);
 		}
+		// Medal and image appears only if the level is cleared
 		if (Master.GetM.cleared_levels[level_index] == 0) {
 			transform.GetChild(2).GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
 		}

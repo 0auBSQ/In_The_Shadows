@@ -14,6 +14,11 @@ public class LevelHandler : MonoBehaviour
 	public LevelCountdown level_countdown;
 	public float max_time;
 	
+	public TextMeshProUGUI failure;
+	public TextMeshProUGUI clear;
+	
+	public GameObject victory_gfx;
+	
 	void Awake()
 	{
 		audios = GameObject.FindGameObjectWithTag("AudioSource").GetComponent<AudioSource>();
@@ -40,7 +45,9 @@ public class LevelHandler : MonoBehaviour
 					oh.translating = false;
 					oh.enabled = false;
 				}
-				print("Level failed !");
+				// Display level failed msg
+				failure.text = "レベル失敗\nタイムアウト";
+				// Play lose sfx
 				audios.clip = Master.GetM.sfx_list[5];
 				audios.loop = false;
 				audios.Play(0);
@@ -56,7 +63,13 @@ public class LevelHandler : MonoBehaviour
 					oh.translating = false;
 					oh.enabled = false;
 				}
-				print("Level complete !");
+				// Display level complete msg
+				clear.text = "レベル完了！";
+				// Throw confetti
+				GameObject vgfx = Instantiate(victory_gfx);
+				Destroy(vgfx, 5f);
+				audios.PlayOneShot(Master.GetM.sfx_list[6], 1f);
+				// Play win sfx
 				audios.clip = Master.GetM.sfx_list[4];
 				audios.loop = false;
 				audios.Play(0);
