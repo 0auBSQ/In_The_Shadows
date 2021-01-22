@@ -948,7 +948,7 @@ MonoBehaviour:
   handlers:
   - {fileID: 400366935}
   - {fileID: 1493323395}
-  level_id: 3
+  level_id: 0
   level_nameplate: {fileID: 19258067}
   level_name: "\u4EBA\u751F\u306E\u7B54\u3048"
   level_countdown: {fileID: 1685414051}
