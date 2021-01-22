@@ -16,10 +16,10 @@ public class Constraint : MonoBehaviour
     void Update()
     {
 		// Rotation constraints
-        Vector3 current = transform.eulerAngles;
-		if (Mathf.Abs(Mathf.DeltaAngle(current.y, rotationConstraints.y)) <= rotationLeniency.y
-			&& Mathf.Abs(Mathf.DeltaAngle(current.x, rotationConstraints.x)) <= rotationLeniency.x
-			&& Mathf.Abs(Mathf.DeltaAngle(current.z, rotationConstraints.z)) <= rotationLeniency.z) {
+        Vector3 current_r = transform.eulerAngles;
+		if (Mathf.Abs(Mathf.DeltaAngle(current_r.y, rotationConstraints.y)) <= rotationLeniency.y
+			&& Mathf.Abs(Mathf.DeltaAngle(current_r.x, rotationConstraints.x)) <= rotationLeniency.x
+			&& Mathf.Abs(Mathf.DeltaAngle(current_r.z, rotationConstraints.z)) <= rotationLeniency.z) {
 			rotationSatisfied = true;
 		}
 		else {
@@ -30,7 +30,7 @@ public class Constraint : MonoBehaviour
 		int i = 0;
 		positionSatisfied = true;
 		foreach (GameObject g in attachObjects) {
-			current = transform.position;
+			Vector3 current = transform.position;
 			Vector3 relative = g.transform.position;
 			float yrange = current.y - relative.y;
 			float xrange = current.x - relative.x;

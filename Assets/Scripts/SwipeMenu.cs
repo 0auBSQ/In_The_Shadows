@@ -21,14 +21,15 @@ public class SwipeMenu : MonoBehaviour
 	private float whole_width;
 	
 	void Awake() {
-		xpos.position = new Vector2(SwipeMenu.last_pos, xpos.position.y);
+		scrollbar.GetComponent<Scrollbar>().value = SwipeMenu.last_pos;
+		scroll_pos = SwipeMenu.last_pos;
 	}
 
 	void Update() {
 		whole_width = GetComponent<HorizontalLayoutGroup>().preferredWidth;
+		SwipeMenu.last_pos = scrollbar.GetComponent<Scrollbar>().value;
 
 		float hue = 240 + (((Mathf.Clamp(-2 * xpos.position.x, 0f, whole_width) + whole_width) * -240) / (1 * whole_width)) + 240;
-		//print(hue);
 		if (hue >= 0f && hue <= 240f) {
 			background.GetComponent<RawImage>().color = Color.HSVToRGB(hue / 360f, 1f, 0.7f);
 		}
@@ -66,6 +67,5 @@ public class SwipeMenu : MonoBehaviour
 				}
 			}
 		}
-		SwipeMenu.last_pos = xpos.position.x;
 	}
 }

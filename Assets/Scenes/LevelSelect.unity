@@ -1108,7 +1108,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB3\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB3\n\u308F\u306B\u304B\u306B"
 --- !u!222 &193620219
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1470,6 +1470,11 @@ PrefabInstance:
     - target: {fileID: 7452569214729894357, guid: 86a8b807c432f2c4dbf845967e2126f2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452569214729894356, guid: 86a8b807c432f2c4dbf845967e2126f2,
+        type: 3}
+      propertyPath: test_mode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4845,7 +4850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level3
   level_index: 2
   level_requirements: 01000000
   avaliable: 1
@@ -5887,7 +5892,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 77abde7592e0e574387c77e331d9cd76, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6213,7 +6218,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2099335771}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.11342491
+  m_Size: 0.11342489
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6546,7 +6551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB4\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB4\n\u6642\u9593\u304C\u7D4C\u3064"
 --- !u!222 &1590278441
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7599,7 +7604,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7edeba13e281c52478a6720f4a07155f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8899,7 +8904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level4
   level_index: 3
   level_requirements: 0200000003000000
   avaliable: 1

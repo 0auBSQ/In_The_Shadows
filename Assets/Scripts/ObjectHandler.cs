@@ -29,10 +29,10 @@ public class ObjectHandler : MonoBehaviour
     void Start()
     {
         if (randomise_yrot == true) {
-			transform.Rotate(0, Random.Range(-160f, 160f), 0);
+			transform.Rotate(0, Random.Range(-160f, 160f), 0, Space.World);
 		}
 		if (randomise_xrot == true) {
-			transform.Rotate(Random.Range(-160f, 160f), 0, 0);
+			transform.Rotate(Random.Range(-160f, 160f), 0, 0, Space.World);
 		}
 		if (randomise_ypos == true) {
 			transform.position = new Vector3(transform.position.x, Random.Range(-3f, 3f), 0);
