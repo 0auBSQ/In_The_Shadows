@@ -482,6 +482,7 @@ MonoBehaviour:
   scrollbar: {fileID: 1563545827}
   xpos: {fileID: 111014743}
   error_msg: {fileID: 650359087}
+  background: {fileID: 1968579085}
 --- !u!1 &112771769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,7 +2641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24091572, g: 0, b: 0.33962262, a: 1}
+  m_Color: {r: 0, g: 0.4204626, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

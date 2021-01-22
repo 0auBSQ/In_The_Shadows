@@ -17,11 +17,22 @@ public class SwipeMenu : MonoBehaviour
 	
 	public TextMeshProUGUI error_msg;
 	
+	public GameObject background;
+	private float whole_width;
+	
 	void Awake() {
 		xpos.position = new Vector2(SwipeMenu.last_pos, xpos.position.y);
 	}
-	
+
 	void Update() {
+		whole_width = GetComponent<HorizontalLayoutGroup>().preferredWidth;
+
+		float hue = 240 + (((Mathf.Clamp(-2 * xpos.position.x, 0f, whole_width) + whole_width) * -240) / (1 * whole_width)) + 240;
+		//print(hue);
+		if (hue >= 0f && hue <= 240f) {
+			background.GetComponent<RawImage>().color = Color.HSVToRGB(hue / 360f, 1f, 0.7f);
+		}
+		
 		pos = new float[transform.childCount];
 		float distance = 1f / (pos.Length - 1f);
 		for (int i = 0; i < pos.Length; i++) {
