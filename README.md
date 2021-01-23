@@ -8,6 +8,11 @@ Most assets are CCO (Public domain), some requires credit.
 ### Models
 
 - Wooden house by Animated Heaven (www.animatedheaven.weebly.com)
+- Flat by tomaszcgb (https://free3d.com/fr/3d-model/buildinghouse-04-40137.html)
+- Light Pole by nzrzb (https://free3d.com/3d-model/light-pole-32057.html)
+- Pole by kaos3d (https://free3d.com/3d-model/post-24298.html)
+- Car by wufudufu (https://free3d.com/3d-model/low-poly-car-40967.html)
+
 
 ### SFX
 

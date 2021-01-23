@@ -1,0 +1,72 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 21.11.2014 17:12:05
+
+newmtl CIMENTO
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_CIMENTO.tga
+	map_Kd C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_CIMENTO.tga
+
+newmtl METAL
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_METAL.tga
+	map_Kd C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_METAL.tga
+
+newmtl MADEIRA
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_MADEIRA.tga
+	map_Kd C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_MADEIRA.tga
+
+newmtl FIO
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_FIO.tga
+	map_Kd C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE.fbm\POSTE_FIO.tga
+
+newmtl Material__2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE2.fbm\HOUSE3_VIDRO.tga
+	map_Kd C:\Users\Leandro\Google Drive\3D\RunOrDie\Modelos\POSTE\POSTE2.fbm\HOUSE3_VIDRO.tga
