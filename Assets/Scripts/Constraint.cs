@@ -16,7 +16,7 @@ public class Constraint : MonoBehaviour
     void Update()
     {
 		// Rotation constraints
-        Vector3 current_r = transform.eulerAngles;
+        Vector3 current_r = transform.localEulerAngles;
 		if (Mathf.Abs(Mathf.DeltaAngle(current_r.y, rotationConstraints.y)) <= rotationLeniency.y
 			&& Mathf.Abs(Mathf.DeltaAngle(current_r.x, rotationConstraints.x)) <= rotationLeniency.x
 			&& Mathf.Abs(Mathf.DeltaAngle(current_r.z, rotationConstraints.z)) <= rotationLeniency.z) {
@@ -25,6 +25,7 @@ public class Constraint : MonoBehaviour
 		else {
 			rotationSatisfied = false;
 		}
+		print(current_r);
 		
 		// Attach constraints
 		int i = 0;

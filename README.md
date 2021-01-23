@@ -27,3 +27,7 @@ Most assets are CCO (Public domain), some requires credit.
 - Martini Sunset by Kevin MacLeod <CC0>
 - Planeteer Reaction by Bryan Teoh <CC0>
 - Patron Saint of Heists by Bryan Teoh <CC0>
+
+### Textures
+
+https://cc0textures.com
