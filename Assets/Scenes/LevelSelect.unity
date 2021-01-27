@@ -330,7 +330,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB6\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB6\n\u30ED\u30C3\u30AF\u89E3\u9664"
 --- !u!222 &77941818
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2030,7 +2030,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 43e3f74e3b61b1c44be4cc6976011d92, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3246,7 +3246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level7
   level_index: 6
   level_requirements: 05000000
   avaliable: 1
@@ -3535,7 +3535,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c80e29b3a9bdf6e449b0722c149a6821, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7889,7 +7889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level6
   level_index: 5
   level_requirements: 05000000
   avaliable: 1
