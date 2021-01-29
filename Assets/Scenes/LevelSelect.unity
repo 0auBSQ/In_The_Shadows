@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level9
   level_index: 8
   level_requirements: 07000000
   avaliable: 1
@@ -6127,7 +6127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB9\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB9\n\u5730\u7403"
 --- !u!222 &1521736654
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6218,7 +6218,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2099335771}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.11342489
+  m_Size: 0.1134249
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6617,7 +6617,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f0884ef96c33e3e46af64911c802ba05, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
