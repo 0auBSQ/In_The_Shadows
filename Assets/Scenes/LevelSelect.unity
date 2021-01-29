@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level10
   level_index: 9
   level_requirements: 07000000
   avaliable: 1
@@ -4517,7 +4517,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 13fce9df36066034a89185be32f648c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5159,7 +5159,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB10\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB10\n\u78BA\u8A8D"
 --- !u!222 &1270562699
 CanvasRenderer:
   m_ObjectHideFlags: 0
