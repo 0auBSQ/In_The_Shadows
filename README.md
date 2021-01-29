@@ -12,7 +12,8 @@ Most assets are CCO (Public domain), some requires credit.
 - Light Pole by nzrzb (https://free3d.com/3d-model/light-pole-32057.html)
 - Pole by kaos3d (https://free3d.com/3d-model/post-24298.html)
 - Car by wufudufu (https://free3d.com/3d-model/low-poly-car-40967.html)
-
+- Sea Shell by Animated Heaven (www.animatedheaven.weebly.com)
+- Fish by Quaternius <CC0> https://www.patreon.com/quaternius
 
 ### SFX
 

@@ -34,7 +34,7 @@ public class Constraint : MonoBehaviour
 			Vector3 relative = g.transform.position;
 			float yrange = current.y - relative.y;
 			float xrange = current.x - relative.x;
-			print(xrange + "|" + yrange);
+			//print(xrange + "|" + yrange);
 			if (!(Mathf.Abs(yrange - attachConstraints[i].y) <= attachLeniency[i].y
 				&& Mathf.Abs(xrange - attachConstraints[i].x) <= attachLeniency[i].x)) {
 				positionSatisfied = false;

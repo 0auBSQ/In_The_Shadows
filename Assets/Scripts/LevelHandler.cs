@@ -23,7 +23,7 @@ public class LevelHandler : MonoBehaviour
 	{
 		audios = GameObject.FindGameObjectWithTag("AudioSource").GetComponent<AudioSource>();
 		level_nameplate.text = level_name;
-		level_countdown.c_timer = max_time;
+		level_countdown.c_timer = max_time / (Master.GetM.difficulty + 1);
 	}
 	
     void Update()
