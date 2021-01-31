@@ -30,7 +30,7 @@ public class UnlockTranslation : MonoBehaviour
 			
 			float xPos = Mathf.Clamp(transform.position.x, -3, 3);
 			float yPos = Mathf.Clamp(transform.position.y, -3, 3);
-			transform.position = new Vector3(xPos, yPos, 0);
+			transform.position = new Vector3(xPos, yPos, transform.position.z);
 		}
     }
 }

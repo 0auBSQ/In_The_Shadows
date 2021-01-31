@@ -35,10 +35,10 @@ public class ObjectHandler : MonoBehaviour
 			transform.Rotate(Random.Range(-160f, 160f), 0, 0, Space.World);
 		}
 		if (randomise_ypos == true) {
-			transform.position = new Vector3(transform.position.x, Random.Range(-3f, 3f), 0);
+			transform.position = new Vector3(transform.position.x, Random.Range(-3f, 3f), transform.position.z);
 		}
 		if (randomise_xpos == true) {
-			transform.position = new Vector3(Random.Range(-3f, 3f), transform.position.y, 0);
+			transform.position = new Vector3(Random.Range(-3f, 3f), transform.position.y, transform.position.z);
 		}
     }
 
