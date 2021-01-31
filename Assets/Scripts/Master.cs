@@ -19,6 +19,14 @@ public class Master : MonoBehaviour
 		}
 	}
 	
+	public static void DeleteSave() {
+		for (int i = 0; i < 20; i++) {
+				Master.GetM.cleared_levels[i] = 0;
+		}
+		Master.SaveGame();
+		print("Save deleted !");
+	}
+	
 	public static void SaveGame() {
 		BinaryFormatter formatter = new BinaryFormatter();
 		string path = Application.persistentDataPath + "/save.oof";

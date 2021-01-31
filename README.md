@@ -16,7 +16,7 @@ Level 8 : Best rating
 Level 9 : Earth
 Level 10 : Confirmation
 Level 11 : Coffee shop 2
-Level 12 : 
+Level 12 : Water fragment
 Level 13 :
 Level 14 :
 Level 15 :
@@ -42,7 +42,7 @@ Level 20 :
 - The difficulty levels are the following :
 ```
 Easy (Few moves, 1 or 2 pieces) : Levels 1, 2, 3, 4, 5, 7
-Medium (More moves, at most 3 pieces) : Levels 8, 9, 10, 11
+Medium (More moves, at most 3 pieces) : Levels 8, 9, 10, 11, 12
 Hard (Complex moves, at most 6 pieces) : Levels 6
 ```
 - The game will contain 20 levels within 7 environments (currently 10 levels within 3 environments) :

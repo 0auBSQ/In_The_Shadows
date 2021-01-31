@@ -2589,7 +2589,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c86887b514ccd9149bac83017c2f67c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3714,6 +3714,7 @@ GameObject:
   - component: {fileID: 922090279}
   - component: {fileID: 922090281}
   - component: {fileID: 922090280}
+  - component: {fileID: 922090282}
   m_Layer: 5
   m_Name: Return
   m_TagString: Untagged
@@ -3861,6 +3862,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922090278}
   m_CullTransparentMesh: 0
+--- !u!114 &922090282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922090278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d756333adff8aca4797c1fadc4f05450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &932355560
 GameObject:
   m_ObjectHideFlags: 0
@@ -7229,7 +7242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada781a0f0d2b064f9d261658bb2e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_scene: SampleScene
+  level_scene: Level12
   level_index: 11
   level_requirements: 08000000
   avaliable: 1
@@ -7538,7 +7551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EC\u30D9\u30EB12\n\u4EBA\u751F\u306E\u7B54\u3048"
+  m_Text: "\u30EC\u30D9\u30EB12\n\u6C34\u306E\u65AD\u7247"
 --- !u!222 &1764817691
 CanvasRenderer:
   m_ObjectHideFlags: 0
