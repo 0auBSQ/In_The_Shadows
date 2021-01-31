@@ -13,7 +13,9 @@ Most assets are CCO (Public domain), some requires credit.
 - Pole by kaos3d (https://free3d.com/3d-model/post-24298.html)
 - Car by wufudufu (https://free3d.com/3d-model/low-poly-car-40967.html)
 - Sea Shell by Animated Heaven (www.animatedheaven.weebly.com)
-- Fish by Quaternius <CC0> https://www.patreon.com/quaternius
+- Fish by Quaternius <CC0> (https://www.patreon.com/quaternius)
+- Sphynx by printable_models (https://free3d.com/3d-model/-egypt-sphinx-v2--884713.html)
+- Pyramids by Michael <Open-Source> (https://creazilla.com/nodes/3686-egyptian-pyramids-and-desert-3d-model)
 
 ### SFX
 
