@@ -38,7 +38,7 @@ Level 20 :
 
 - Guess the expected shape with the title and project it on the wall using the given objects shadow
 - If there are multiple solutions, the correct one will always be the one facing right
-- Clear the level before the times reaches 0
+- Clear the level before the timer reaches 0
 - Rotate an object with the mouse by holding the left click
 - Translate an object with the mouse by holding the left click and the left ctrl button
 - Restart a level by clicking on the `やり直す` button
