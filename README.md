@@ -1,5 +1,12 @@
 # In_The_Shadows
-(In progress) Game inspired by Shadomatic in C# using the Unity Engine
+Game inspired by Shadomatic in C# using the Unity Engine
+
+## Screens
+
+![7](https://user-images.githubusercontent.com/58159635/106404211-66286d80-6432-11eb-9126-9e5cf5ac1551.png)
+![8](https://user-images.githubusercontent.com/58159635/106404214-688ac780-6432-11eb-8f8d-d5255d12117c.png)
+![9](https://user-images.githubusercontent.com/58159635/106404216-69bbf480-6432-11eb-859b-33e679f77453.png)
+![10](https://user-images.githubusercontent.com/58159635/106404224-6cb6e500-6432-11eb-9d3b-c9cdd91a366a.png)
 
 ## Important note
 
